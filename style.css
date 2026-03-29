@@ -17,6 +17,14 @@ h1 {
     font-size: 14px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 #checkBtn {
@@ -26,10 +34,25 @@ h1 {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 #checkBtn:hover {
     background-color: #45a049;
+}
+
+#exampleBtn {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#exampleBtn:hover {
+    background-color: #0b7dda;
 }
 
 #result {
@@ -37,8 +60,83 @@ h1 {
     padding: 20px;
     background-color: white;
     border: 1px solid #ddd;
-    width: 500px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     min-height: 50px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.score-section {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.score-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.category-section {
+    margin-bottom: 20px;
+}
+
+.category-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.category-count {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.phrase-list {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.phrase-item {
+    padding: 5px 0;
+    color: #555;
+}
+
+.phrase-highlight {
+    background-color: #fff3cd;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.explanation-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-left: 4px solid #2196F3;
+}
+
+.explanation-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.no-result {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
 }
